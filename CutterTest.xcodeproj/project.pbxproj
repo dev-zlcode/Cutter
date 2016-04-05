@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CD636AF1CB3A2FF006D2970 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636AE1CB3A2FF006D2970 /* main.m */; };
+		5CD636B21CB3A2FF006D2970 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636B11CB3A2FF006D2970 /* AppDelegate.m */; };
+		5CD636B51CB3A2FF006D2970 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636B41CB3A2FF006D2970 /* ViewController.m */; };
+		5CD636B81CB3A2FF006D2970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD636B61CB3A2FF006D2970 /* Main.storyboard */; };
+		5CD636BA1CB3A2FF006D2970 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CD636B91CB3A2FF006D2970 /* Assets.xcassets */; };
+		5CD636BD1CB3A2FF006D2970 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CD636BB1CB3A2FF006D2970 /* LaunchScreen.storyboard */; };
+		5CD636CA1CB3A314006D2970 /* UIScrollView+Cutter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636C71CB3A314006D2970 /* UIScrollView+Cutter.m */; };
+		5CD636CB1CB3A314006D2970 /* UIView+Cutter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636C91CB3A314006D2970 /* UIView+Cutter.m */; };
+		5CD636CE1CB3A321006D2970 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636CD1CB3A321006D2970 /* ShowImageViewController.m */; };
+		5CD636D61CB3A673006D2970 /* UIViewControllerCutter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636D51CB3A673006D2970 /* UIViewControllerCutter.m */; };
+		5CD636D91CB3A697006D2970 /* UITableviewCutter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636D81CB3A697006D2970 /* UITableviewCutter.m */; };
+		5CD636DC1CB3A6C0006D2970 /* UICollectionViewCutter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636DB1CB3A6C0006D2970 /* UICollectionViewCutter.m */; };
+		5CD636DF1CB3A6DC006D2970 /* UIWebViewCutter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636DE1CB3A6DC006D2970 /* UIWebViewCutter.m */; };
+		5CD636E21CB3AA36006D2970 /* UIViewControllerCutter2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD636E11CB3AA36006D2970 /* UIViewControllerCutter2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5CD636AA1CB3A2FF006D2970 /* CutterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD636AE1CB3A2FF006D2970 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CD636B01CB3A2FF006D2970 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CD636B11CB3A2FF006D2970 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CD636B31CB3A2FF006D2970 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CD636B41CB3A2FF006D2970 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CD636B71CB3A2FF006D2970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CD636B91CB3A2FF006D2970 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CD636BC1CB3A2FF006D2970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CD636BE1CB3A2FF006D2970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CD636C51CB3A314006D2970 /* Cutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cutter.h; sourceTree = "<group>"; };
+		5CD636C61CB3A314006D2970 /* UIScrollView+Cutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Cutter.h"; sourceTree = "<group>"; };
+		5CD636C71CB3A314006D2970 /* UIScrollView+Cutter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Cutter.m"; sourceTree = "<group>"; };
+		5CD636C81CB3A314006D2970 /* UIView+Cutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Cutter.h"; sourceTree = "<group>"; };
+		5CD636C91CB3A314006D2970 /* UIView+Cutter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Cutter.m"; sourceTree = "<group>"; };
+		5CD636CC1CB3A321006D2970 /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		5CD636CD1CB3A321006D2970 /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
+		5CD636D41CB3A673006D2970 /* UIViewControllerCutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerCutter.h; sourceTree = "<group>"; };
+		5CD636D51CB3A673006D2970 /* UIViewControllerCutter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerCutter.m; sourceTree = "<group>"; };
+		5CD636D71CB3A697006D2970 /* UITableviewCutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableviewCutter.h; sourceTree = "<group>"; };
+		5CD636D81CB3A697006D2970 /* UITableviewCutter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableviewCutter.m; sourceTree = "<group>"; };
+		5CD636DA1CB3A6C0006D2970 /* UICollectionViewCutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewCutter.h; sourceTree = "<group>"; };
+		5CD636DB1CB3A6C0006D2970 /* UICollectionViewCutter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewCutter.m; sourceTree = "<group>"; };
+		5CD636DD1CB3A6DC006D2970 /* UIWebViewCutter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewCutter.h; sourceTree = "<group>"; };
+		5CD636DE1CB3A6DC006D2970 /* UIWebViewCutter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewCutter.m; sourceTree = "<group>"; };
+		5CD636E01CB3AA36006D2970 /* UIViewControllerCutter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerCutter2.h; sourceTree = "<group>"; };
+		5CD636E11CB3AA36006D2970 /* UIViewControllerCutter2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewControllerCutter2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD636A71CB3A2FF006D2970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CD636A11CB3A2FF006D2970 = {
+			isa = PBXGroup;
+			children = (
+				5CD636AC1CB3A2FF006D2970 /* CutterTest */,
+				5CD636AB1CB3A2FF006D2970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CD636AB1CB3A2FF006D2970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CD636AA1CB3A2FF006D2970 /* CutterTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CD636AC1CB3A2FF006D2970 /* CutterTest */ = {
+			isa = PBXGroup;
+			children = (
+				5CD636D01CB3A60C006D2970 /* APP */,
+				5CD636CF1CB3A5F2006D2970 /* ViewControllers */,
+				5CD636C41CB3A314006D2970 /* Cutter */,
+			);
+			path = CutterTest;
+			sourceTree = "<group>";
+		};
+		5CD636AD1CB3A2FF006D2970 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CD636AE1CB3A2FF006D2970 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CD636C41CB3A314006D2970 /* Cutter */ = {
+			isa = PBXGroup;
+			children = (
+				5CD636C51CB3A314006D2970 /* Cutter.h */,
+				5CD636C81CB3A314006D2970 /* UIView+Cutter.h */,
+				5CD636C91CB3A314006D2970 /* UIView+Cutter.m */,
+				5CD636C61CB3A314006D2970 /* UIScrollView+Cutter.h */,
+				5CD636C71CB3A314006D2970 /* UIScrollView+Cutter.m */,
+			);
+			path = Cutter;
+			sourceTree = "<group>";
+		};
+		5CD636CF1CB3A5F2006D2970 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5CD636CC1CB3A321006D2970 /* ShowImageViewController.h */,
+				5CD636CD1CB3A321006D2970 /* ShowImageViewController.m */,
+				5CD636D41CB3A673006D2970 /* UIViewControllerCutter.h */,
+				5CD636D51CB3A673006D2970 /* UIViewControllerCutter.m */,
+				5CD636E01CB3AA36006D2970 /* UIViewControllerCutter2.h */,
+				5CD636E11CB3AA36006D2970 /* UIViewControllerCutter2.m */,
+				5CD636D71CB3A697006D2970 /* UITableviewCutter.h */,
+				5CD636D81CB3A697006D2970 /* UITableviewCutter.m */,
+				5CD636DA1CB3A6C0006D2970 /* UICollectionViewCutter.h */,
+				5CD636DB1CB3A6C0006D2970 /* UICollectionViewCutter.m */,
+				5CD636DD1CB3A6DC006D2970 /* UIWebViewCutter.h */,
+				5CD636DE1CB3A6DC006D2970 /* UIWebViewCutter.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5CD636D01CB3A60C006D2970 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				5CD636B01CB3A2FF006D2970 /* AppDelegate.h */,
+				5CD636B11CB3A2FF006D2970 /* AppDelegate.m */,
+				5CD636B31CB3A2FF006D2970 /* ViewController.h */,
+				5CD636B41CB3A2FF006D2970 /* ViewController.m */,
+				5CD636B61CB3A2FF006D2970 /* Main.storyboard */,
+				5CD636B91CB3A2FF006D2970 /* Assets.xcassets */,
+				5CD636BB1CB3A2FF006D2970 /* LaunchScreen.storyboard */,
+				5CD636BE1CB3A2FF006D2970 /* Info.plist */,
+				5CD636AD1CB3A2FF006D2970 /* Supporting Files */,
+			);
+			name = APP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CD636A91CB3A2FF006D2970 /* CutterTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CD636C11CB3A2FF006D2970 /* Build configuration list for PBXNativeTarget "CutterTest" */;
+			buildPhases = (
+				5CD636A61CB3A2FF006D2970 /* Sources */,
+				5CD636A71CB3A2FF006D2970 /* Frameworks */,
+				5CD636A81CB3A2FF006D2970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutterTest;
+			productName = CutterTest;
+			productReference = 5CD636AA1CB3A2FF006D2970 /* CutterTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD636A21CB3A2FF006D2970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = myjobsky;
+				TargetAttributes = {
+					5CD636A91CB3A2FF006D2970 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5CD636A51CB3A2FF006D2970 /* Build configuration list for PBXProject "CutterTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CD636A11CB3A2FF006D2970;
+			productRefGroup = 5CD636AB1CB3A2FF006D2970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CD636A91CB3A2FF006D2970 /* CutterTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CD636A81CB3A2FF006D2970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD636BD1CB3A2FF006D2970 /* LaunchScreen.storyboard in Resources */,
+				5CD636BA1CB3A2FF006D2970 /* Assets.xcassets in Resources */,
+				5CD636B81CB3A2FF006D2970 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CD636A61CB3A2FF006D2970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD636B51CB3A2FF006D2970 /* ViewController.m in Sources */,
+				5CD636B21CB3A2FF006D2970 /* AppDelegate.m in Sources */,
+				5CD636DF1CB3A6DC006D2970 /* UIWebViewCutter.m in Sources */,
+				5CD636D91CB3A697006D2970 /* UITableviewCutter.m in Sources */,
+				5CD636CB1CB3A314006D2970 /* UIView+Cutter.m in Sources */,
+				5CD636CA1CB3A314006D2970 /* UIScrollView+Cutter.m in Sources */,
+				5CD636AF1CB3A2FF006D2970 /* main.m in Sources */,
+				5CD636DC1CB3A6C0006D2970 /* UICollectionViewCutter.m in Sources */,
+				5CD636CE1CB3A321006D2970 /* ShowImageViewController.m in Sources */,
+				5CD636D61CB3A673006D2970 /* UIViewControllerCutter.m in Sources */,
+				5CD636E21CB3AA36006D2970 /* UIViewControllerCutter2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CD636B61CB3A2FF006D2970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD636B71CB3A2FF006D2970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CD636BB1CB3A2FF006D2970 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CD636BC1CB3A2FF006D2970 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CD636BF1CB3A2FF006D2970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CD636C01CB3A2FF006D2970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CD636C21CB3A2FF006D2970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutterTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanglei.CutterTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CD636C31CB3A2FF006D2970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutterTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanglei.CutterTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CD636A51CB3A2FF006D2970 /* Build configuration list for PBXProject "CutterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD636BF1CB3A2FF006D2970 /* Debug */,
+				5CD636C01CB3A2FF006D2970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CD636C11CB3A2FF006D2970 /* Build configuration list for PBXNativeTarget "CutterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD636C21CB3A2FF006D2970 /* Debug */,
+				5CD636C31CB3A2FF006D2970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CD636A21CB3A2FF006D2970 /* Project object */;
+}
